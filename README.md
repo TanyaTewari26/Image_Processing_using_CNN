@@ -1,9 +1,9 @@
-# Image Processing of CIFAR dataset using Convolutional Neural Network
+## Image Processing of CIFAR dataset using Convolutional Neural Network
 
 This repository contains code and resources for performing image classification on the CIFAR-10 dataset using Convolutional Neural Networks (CNNs). 
 CIFAR-10 is a well-known dataset consisting of 60,000 32x32 color images in 10 different classes, with 6,000 images per class.
 
-# Convolutional Neural Network (CNNs)
+## Convolutional Neural Network (CNNs)
 A convolutional NN is a network that contains one or more convolutional layers. A convolutional layer allows the network to process spatial patterns (e.g., identify items within an image). 
 For this reason, CNNs are commonly used for image identification and computer vision.
 
