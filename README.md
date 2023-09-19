@@ -12,8 +12,8 @@ CNNs simplify images, converting them into the main lines or features. That simp
 The following is a typical architecture for CNNs:
 
 Conv2D
-MaxPooling2D
-Dropout
+\n MaxPooling2D
+\n Dropout
 Flatten
 Dense
 Dropout
