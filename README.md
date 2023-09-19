@@ -7,8 +7,7 @@ CIFAR-10 is a well-known dataset consisting of 60,000 32x32 color images in 10 d
 A convolutional NN is a network that contains one or more convolutional layers. A convolutional layer allows the network to process spatial patterns (e.g., identify items within an image). 
 For this reason, CNNs are commonly used for image identification and computer vision.
 
-The challenges with images is that there is often a lot going on: what should the network focus on? CNNs simplify images, converting them into the main lines or features. 
-That simplified pattern is then fed into a more traditional neural network, which identifies the pattern.
+CNNs simplify images, converting them into the main lines or features. That simplified pattern is then fed into a more traditional neural network, which identifies the pattern.
 
 The following is a typical architecture for CNNs:
 
