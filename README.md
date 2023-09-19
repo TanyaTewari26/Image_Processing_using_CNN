@@ -12,12 +12,19 @@ CNNs simplify images, converting them into the main lines or features. That simp
 The following is a typical architecture for CNNs:
 
 Conv2D
-\n MaxPooling2D
-\n Dropout
-Flatten
-Dense
+
+MaxPooling2D
+
 Dropout
+
+Flatten
+
+Dense
+
+Dropout
+
 Dense NN that uses Softmax (for >2 categories)
+
 The convolutional layer applies a filter to a 3x3 collection of pixels. This process convolutes or reshapes the image into something simpler. 
 For a 3 channel image, the convolution process converts the image into a black and white image.
 
