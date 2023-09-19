@@ -9,22 +9,6 @@ For this reason, CNNs are commonly used for image identification and computer vi
 
 CNNs simplify images, converting them into the main lines or features. That simplified pattern is then fed into a more traditional neural network, which identifies the pattern.
 
-The following is a typical architecture for CNNs:
-
-Conv2D
-
-MaxPooling2D
-
-Dropout
-
-Flatten
-
-Dense
-
-Dropout
-
-Dense NN that uses Softmax (for >2 categories)
-
 The convolutional layer applies a filter to a 3x3 collection of pixels. This process convolutes or reshapes the image into something simpler. 
 For a 3 channel image, the convolution process converts the image into a black and white image.
 
@@ -33,4 +17,4 @@ This step further reduces image complexity by reducing its size, which speeds co
 
 Flatten converts the 2D image data into 1D. This step prepares the data for the NN.
 
-After Flatten is our traditional NN, which will identify the patterns, apply softmax, and make the final prediction.
+After Flatten the data is fed as a traditional NN, which will identify the patterns, apply softmax, and make the final prediction.
